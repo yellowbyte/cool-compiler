@@ -1,0 +1,3 @@
+let c <- InputNum();
+let b <- 10;
+let a <- b;

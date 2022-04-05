@@ -1,0 +1,7 @@
+main
+var a;
+{
+    let a <- call InputNum();
+    call OutputNum(a);
+    call OutputNewLine();
+}.

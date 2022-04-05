@@ -1,0 +1,18 @@
+main
+var a, b;
+{
+    let a <- call InputNum();
+    let b <- call InputNum();
+
+	if a < b
+	then
+		let a <- a + 1;
+		let b <- b + 1;
+    else
+        let a <- a + 2;
+		let b <- b + 2;
+	fi;
+
+	call OutputNum(a);
+	call OutputNum(b);
+}.

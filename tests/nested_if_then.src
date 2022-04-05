@@ -1,0 +1,12 @@
+main
+var a, b, c, d, e;
+{
+let a <- call InputNum();
+let b <- a;
+let c <- b;
+let d <- b + c;
+let e <- a + b;
+if a < 0 then let d <-d + e; let a <-d; if d < 3 then let d <- d * 2 fi else let d <- e fi;
+call OutputNum(a);
+call OutputNum(d)
+}.

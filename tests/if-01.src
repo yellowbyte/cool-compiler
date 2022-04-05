@@ -1,0 +1,17 @@
+main
+var a,b,c;
+array[10][5][2] brr;
+{
+    let a <- call InputNum();
+    let b <- 4;
+    
+    if a <= 0 then
+    let c <- b;
+    let brr[1][2][0] <- a;
+    else
+    let c <- a;
+    fi;
+
+    call OutputNum(c);
+
+}.

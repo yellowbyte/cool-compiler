@@ -1,0 +1,18 @@
+main
+var a;
+array[10][5][2] arr,brr;
+
+function isEven(n);
+var v;
+{
+    let v <- n;
+    return v;
+};
+
+{
+    let a <- call InputNum();
+    let arr[1][2][0] <- a;
+    call OutputNum(a);
+    let brr[0][2][1] <- arr[1][2][0];
+    call OutputNewLine();
+}.

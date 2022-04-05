@@ -1,0 +1,17 @@
+main
+var a,b; {
+let a <- call InputNum();
+let b <- a;
+
+while a<b do
+    
+    if a > 10 then
+    let a <- a * 2;
+    else
+    let b <- b * 1;
+    fi
+od;
+
+call OutputNum(a);
+call OutputNum(b);
+}.

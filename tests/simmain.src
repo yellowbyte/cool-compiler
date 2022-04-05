@@ -1,0 +1,11 @@
+main
+var a,b,c;
+{
+    let a <- call InputNum();
+    let b <- 4 + a;
+    let c <- a + b;
+    let d <- 2*2 + a;
+    let a <- d + 5;
+    call OutputNum(a);
+    call OutputNewLine();
+}.

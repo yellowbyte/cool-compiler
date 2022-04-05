@@ -1,0 +1,26 @@
+main
+var a;
+array[10][5][2] arr,brr;
+
+function isEven(n);
+var v, result;
+{
+    let v <- n;
+    while v >= 2 do
+        let v <- v - 2;
+    od;
+
+    if v == 2 then
+        return 1;
+    else
+        return 0;
+    fi;
+};
+
+{
+    let a <- call InputNum();
+    let arr[1][2][0] <- a;
+    call OutputNum(a);
+    let brr[0][2][1] <- arr[1][2][0];
+    call OutputNewLine();
+}.

@@ -1,0 +1,8 @@
+main
+var a,b,c;
+{
+    let a <- call InputNum();
+    let b <- 4;
+    let c <- a;
+    call OutputNewLine();
+}.

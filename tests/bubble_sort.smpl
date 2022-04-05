@@ -1,0 +1,62 @@
+main
+array[10] arr;
+var i, length;
+var j;
+var result;
+
+function min(element1, element2);
+var tmp;
+{
+    let tmp <- 0;
+    if element1 > element2
+    then let tmp <- element2
+    else let tmp <- element1
+    fi;
+
+    return tmp;
+};
+
+function max(element1, element2);
+var tmp;
+{
+    let tmp <- 0;
+    if element1 > element2
+    then let tmp <- element1
+    else let tmp <- element2
+    fi;
+
+    return tmp;
+};
+
+{
+    let length <- 10;
+    let i <- 0;
+    while i < 10 do 
+        let arr[i] <- call InputNum();
+        let i <- i + 1
+    od;
+
+    let i <- 0;
+    let j <- 0;
+    while i < (length - 1) do
+        while j < (length - i - 1) do
+            if arr[j] > arr[j + 1]
+            then 
+                let arr[j] <- call min(arr[j], arr[j + 1]);
+                let arr[j + 1] <- call max(arr[j], arr[j + 1]);
+            fi;
+        od;
+    od;
+
+    let i <- 0;
+    let result <- 1;
+    while i < 10 do
+        if arr[i] > arr[i + 1]
+        then let result <- 0
+        fi;
+    od;
+    
+    call OutputNum(result);
+
+    return 0;
+}.

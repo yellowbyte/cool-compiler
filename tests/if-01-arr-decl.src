@@ -1,0 +1,16 @@
+main
+var a,b,c,d;
+array[5] arr,brr,crr;
+{
+    let a <- call InputNum();
+    let b <- 4;
+    
+    if a <= 0 then
+    let c <- b;
+    else
+    let c <- a;
+    fi;
+
+    call OutputNum(c);
+
+}.
